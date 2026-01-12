@@ -16,5 +16,5 @@ Former **Java Developer** and **Technical Recruiter** restarting a career with a
 * [Project Documentation](./AI_Project_Report_Assistant)
 
 ### N8N Workflows
-* [N8N Workflows](./N8N Workflows/README.md)
+* [N8N Workflows](./N8N-Workflows/README.md)
 ---
