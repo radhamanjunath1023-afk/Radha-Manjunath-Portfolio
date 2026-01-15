@@ -13,8 +13,7 @@ Former **Java Developer** and **Technical Recruiter** restarting a career with a
 
 ## Projects
 ### AI Project Report Assistant
-* [AI Project Report Assistant](./AI_Project_Report_Assistant/README.md)
-* [Project Documentation](./AI_Project_Report_Assistant)
+* Project Details will be updated soon
 
 ### N8N Workflows
 1. [Client Intake & Research Automation](https://github.com/radhamanjunath1023-afk/Portfolio/blob/6dd047529924bef3be49c97e9523495544827f49/N8N-Workflows/Client%20Intake%20%26%20Research/README.md)
