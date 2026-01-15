@@ -18,3 +18,6 @@ Former **Java Developer** and **Technical Recruiter** restarting a career with a
 ### N8N Workflows
 * [N8N Workflows](./N8N-Workflows/README.md)
 
+* 1. [Client Intake & Research Automation](./N8N-Workflows/Client%20Intake%20&%20Research/README.md)
+2. [Daily Executive Briefing](./N8N-Workflows/Daily%20Executive%20Briefing/README.md)
+
