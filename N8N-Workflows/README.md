@@ -1,4 +1,4 @@
 
 ## N8N Workflows
 1. Daily Executive Briefing
-2. Tally Form to Gmail 
+2. Client Intake & Research Automation
