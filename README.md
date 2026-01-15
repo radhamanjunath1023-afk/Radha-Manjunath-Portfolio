@@ -9,7 +9,7 @@ Former **Java Developer** and **Technical Recruiter** restarting a career with a
 ## Technical Skills
 * **Automation:** n8n, Zapier
 * **Tools:** GitHub, Lovable, AI Prompting
-* **Skills:** AI Agentic workflow automation, Zapier workflow automation, Zapier chatbot
+* **Skills:** AI Agentic workflow automation using N8N, Zapier workflow automation, Zapier chatbot
 
 ## Projects
 ### AI Project Report Assistant
