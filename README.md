@@ -16,7 +16,8 @@ Former Java Developer restarting a career with a focus on **AI automation and Pr
 * Project Details will be updated soon.
 
 ### N8N Workflows
-1. [Client Intake & Research Automation](https://github.com/radhamanjunath1023-afk/Radha-Manjunath-Portfolio/tree/2c5deb7de9f1403853c58e95fe4617acdc4c2f0c/N8N-Workflows/Client%20Intake%20%26%20Research)
+1. [Client Intake & Research Automation](https://github.com/radhamanjunath1023-afk/Radha-Manjunath-Portfolio/tree/0fc694ab2342ebd96123207baa1b0bcd1c70d02c/N8N-Workflows/Client%20Intake%20%26%20Research)
+
 2. [Daily Executive Briefing](https://github.com/radhamanjunath1023-afk/Radha-Manjunath-Portfolio/tree/2c5deb7de9f1403853c58e95fe4617acdc4c2f0c/N8N-Workflows/Daily%20Executive%20Briefing)
 
 
