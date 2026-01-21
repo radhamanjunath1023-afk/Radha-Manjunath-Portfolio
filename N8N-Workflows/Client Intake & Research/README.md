@@ -23,7 +23,7 @@ A structured AI-generated result including client summary, research points, and 
 ---
 ## Workflow Demo
 
-https://www.loom.com/share/4500eb9106814763a67f2aaa31263330
+
 ---
 ## Screenshot of Workflow
 
