@@ -1,6 +1,5 @@
 ## Client Intake & Research Automation
 
-### Problem statement
 Manually reviewing form submissions and researching clients is slow and inconsistent.
 
 ### Workflow Breakdown
