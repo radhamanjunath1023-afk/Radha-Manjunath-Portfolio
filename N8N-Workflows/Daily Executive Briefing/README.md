@@ -24,6 +24,7 @@ This workflow uses AI to save time by condensing your inbox and Calender schedul
 ## Workflow Demo
 
 https://www.loom.com/share/e2abcfa1a9404c57b36f6b20164d16f6
+
 ---
 ## ScreenShot Of Workflow
 ![Screenshot](./Daily%20Executive%20Briefing.png)
