@@ -6,6 +6,7 @@
 3. Project Charter <br>
     Confluence:  [Project charter link](https://radhamanjunath1023-1769396211997.atlassian.net/wiki/x/AQAi) <br>
     Defines project goals, scope, Agile structure, risks, and success criteria.
+4. Kickoff notification automation
 
 ### Sprint 1 - Execution & Core Coordination  <br>
 
