@@ -10,7 +10,12 @@
 | 3. Project Charter|[Project charter link](https://radhamanjunath1023.atlassian.net/wiki/x/AgAf)|
 
 ### Sprint 1 - Core Coordination  <br>
-1. Task Tracking Setup
+1. Task Tracking Setup <br>
+**Goal:** Track work using a simple Jira workflow  <br>
+**What I Did:**
+    - Imported support ticket dataset as Jira Tasks
+    - Configured workflow: To Do → In Progress → Done
+    - Grouped tasks under an Epic for scope visibility
 2. Client / Request Intake
 3. Meeting & Action Items
 
