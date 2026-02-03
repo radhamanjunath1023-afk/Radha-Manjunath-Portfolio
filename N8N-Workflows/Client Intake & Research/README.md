@@ -4,17 +4,21 @@ Manually reviewing form submissions and researching clients is slow and inconsis
 
 ### Workflow Breakdown
 
-1. **Trigger:**  User submits a Tally form
+```mermaid
+graph TD
+    Start([User submits Tally Form]) --> Webhook[n8n Webhook: Receive Data]
+    Webhook --> Agent[AI Agent: Read Form Fields]
+    
+    Agent --> Research{Research Required?}
+    
+    Research -- Yes --> Serp[Google Search: SerpApi]
+    Serp --> Analyze
 
-2. **Data Intake:** Tally sends form data to an n8n Webhook
+    Research -- No --> Analyze[AI Analysis: VA Task & Context]
 
-3. **Input Reading:** AI Agent reads form fields (client, need, tone, context)
-
-4. **Conditional Research:** Agent uses Google Search (SerpApi) only when external research is required
-
-5. **AI Processing:** Agent acts like a virtual assistant to analyze needs and context
-
-6. **Structured Output:** Results are returned in a fixed, clean schema using a Structured Output Parser
+    Analyze --> Schema[(Structured Output Parser)]
+    Schema --> Final[Fixed Clean Schema Results]
+```
 
 ### Output 
 A structured AI-generated result including client summary, research points, and ready-to-use email content.
