@@ -9,7 +9,7 @@ A structured AI-generated result including client summary, research points, and 
 ---
 ## Workflow Demo
 
-
+[Loom Walkthrough explaining workflow](https://www.loom.com/share/c9a078da65174abe94d261db4879abab)
 ---
 ## Screenshot of Workflow
 ![Screenshot](./ClientIntake_research.png)
