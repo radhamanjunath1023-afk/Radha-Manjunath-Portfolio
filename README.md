@@ -13,7 +13,7 @@ Former Java Developer restarting a career with a focus on **AI automation and Pr
 
 ## Projects
 ### AI Project Report Assistant
-Practical application of GenAI in project coordination and operations- 
+Practical application of GenAI in project reporting 
 [Project Details](./AI%20Project%20Report%20Assistant/README.md)
   
 ### Agile Coordination Hub 
