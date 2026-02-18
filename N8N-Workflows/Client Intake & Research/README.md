@@ -2,7 +2,7 @@
 Problem statement : Manually reviewing form submissions and researching clients is slow and inconsistent.
 
 ### Workflow Diagram
-![Workflow Diagram](./Screenshot_WD.png)
+[Workflow Diagram](./Screenshot_WD.png)<br>
 ### Output 
 A structured AI-generated result including client summary, research points, and ready-to-use email content.
 
