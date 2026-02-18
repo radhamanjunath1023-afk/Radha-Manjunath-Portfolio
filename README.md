@@ -1,5 +1,5 @@
 # Radha Manjunath
-**Location:** FarmingtonHills, MI, USA | **Role:** AI-Driven Project Coordinator & VA |  Workflow Automation | Agentic AI Workflow Builder 
+**Location:** FarmingtonHills, MI, USA | **Role:** AI-Driven Project Coordinator & VA |  Workflow Automation | AI Workflow Builder 
 
 ---
 
@@ -7,14 +7,14 @@
 Former Java Developer restarting a career with a focus on **AI automation and Project Co ordinator**.
 
 ## Technical Skills
-* **Automation:** n8n, Zapier
-* **Tools:** GitHub, Lovable, AI Prompting
+* **Automation:** N8N, Zapier
+* **Tools:** GitHub, Lovable, AI Prompting techniques, ChatGPT, Gemini, Claude, Google Workspace
 * **Skills:** AI workflow automation using N8N, Zapier workflow automation, Zapier chatbot
 
 ## Projects
 ### AI Project Report Assistant
 Practical application of GenAI in project reporting - 
-[Project Details](./AI%20Project%20Report%20Assistant/README.md)
+[Project Details](./AI%20Project%20Report%20Assistant)
   
 ### Agile Coordination Hub 
 Portfolio project for project co ordination. -  [Project Details](./Agile%20Coordination%20Hub) <br>
