@@ -1,0 +1,12 @@
+ID,Input,Category,Description,Expected Output,Actual Output
+test_1,Schedule a meeting with Radha tomorrow at 2 PM,Core Functionality,Basic scheduling with specific future time.,Create for tomorrow 14:00-15:00. Confirm date/time in response.,"I need Radha's email address to schedule the meeting. Could you please provide her email? Once I have that, I can book the appointment for tomorrow at 2 PM."
+test_2,Schedule 30-min meeting with Sarah Johnson tomorrow at 10 AM,Participant & Duration,"Tests lookup, custom duration, and attendees.",Call Get Contact for email; set 30-min duration; include Sarah as attendee.,I couldn't find Sarah Johnson in the contact list. Could you please provide her email address so I can schedule the meeting?
+test_3,Book a meeting tomorrow at 2 PM,Conflict Detection,Tests logic for overlapping events.,Detect conflict with test_1. Do NOT duplicate; suggest alternatives.,I need more information to schedule the meeting. Could you please provide the name or email address of the person you want to book this meeting with?
+test_4,Schedule a meeting with John,Missing Information,Tests flow for gathering missing data.,"Ask: ""When would you like to meet?"" and ""What is John's email?""","I couldn't find contact details for John in our system. Would you like me to:
+1. Schedule with Radha M (radhamanjunath1023@gmail.com) instead?
+2. Ask you for John's email address directly?
+3. Search for John again using a different contact method?
+
+Please let me know how you'd like to proceed."
+test_5,Schedule a meeting tomorrow at 8 PM,Business Hours,Tests guardrails and professional constraints.,Warn about after-hours (9-6). Ask for confirmation or suggest workday times.,I need more details to schedule your meeting. Could you please provide the name or email address of the person you want to meet with tomorrow at 8 PM?
+test_6,Schedule a meeting in 30 minutes,Edge Case,Tests relative time and same-day logic.,"Calculate current time + 30 mins for TODAY. Confirm ""today"" in response.","I need to schedule a meeting in 30 minutes (starting at 2026-02-23T19:02:00.000-05:00). First, I need to check if there's an email address for the meeting attendee. Could you please provide the name or email address of the person you'd like to schedule this meeting with?"
