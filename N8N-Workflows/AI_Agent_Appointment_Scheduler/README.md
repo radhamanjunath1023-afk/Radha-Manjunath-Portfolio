@@ -24,8 +24,15 @@ AI Agent (GPT-3.5)<br>
 ↓<br>
 Google Calendar <br>
 
-**Workflow Demo** ------->
 
+
+## Evaluation
+
+Tested with **6 scenarios** covering scheduling, conflicts, and edge cases <br>
+
+Inputs for evaluation & output of each workflow run is recorded in 
+
+**Workflow Demo** ------->
 **Screenshot of Workflow** -------> [Appointment scheduling Agent](./Screenshot.png)
 
 
