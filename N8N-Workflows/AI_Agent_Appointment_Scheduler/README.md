@@ -24,8 +24,8 @@ AI Agent (GPT-3.5)<br>
 ↓<br>
 Google Calendar <br>
 
-### Workflow Demo
+**Workflow Demo** ------->
 
-### Screenshot of Workflow
+**Screenshot of Workflow** -------> [Appointment scheduling Agent](./Screenshot.png)
 
-[Appointment scheduling Agent](./Screenshot.png)
+
