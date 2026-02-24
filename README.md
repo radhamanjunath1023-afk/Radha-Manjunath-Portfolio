@@ -24,6 +24,6 @@ Portfolio project for project co ordination. -
 2. [Daily Executive Briefing](./N8N-Workflows/Daily%20Executive%20Briefing)
    
 ### Agentic N8N Workflows
-1. Appointment scheduling Agent- included Evaluation of AI Workflow <br>
+1. [Appointment scheduling Agent]()- included Evaluation of AI Workflow <br>
 
 
