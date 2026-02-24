@@ -30,9 +30,9 @@ Google Calendar <br>
 
 Tested with **6 scenarios** covering scheduling, conflicts, and edge cases <br>
 
-Inputs for evaluation & output of each workflow run is recorded in 
+Inputs for evaluation & output of each workflow run is recorded in ![Test Case Data](./Appointment Booking -Test Case Data.csv)
 
-**Workflow Demo** ------->
-**Screenshot of Workflow** -------> [Appointment scheduling Agent](./Screenshot.png)
+**Workflow Demo** -------> <br>
+**Screenshot of Workflow** -------> [Appointment scheduling Agent](./Screenshot.png) <br>
 
 
