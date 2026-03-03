@@ -32,7 +32,7 @@ Tested with **6 scenarios** covering scheduling, conflicts, and edge cases <br>
 
 Inputs for evaluation & output of each workflow run is recorded in [Test Case Data](./Appointment%20Booking%20-Test%20Case%20Data.csv)
 
-**Workflow Demo** -------> <br>
-**Screenshot of Workflow** -------> [Appointment scheduling Agent](./Screenshot.png) <br>
+**Workflow Loom Video Demo** -------> [Agentic AI Appointment Scheduling](https://www.loom.com/share/5bfb1e5ed7d14efbae9e9fe58fdd3d8e)<br>
+**Screenshot of Workflow** ---------> [Appointment scheduling Agent](./Screenshot.png) <br>
 
 
