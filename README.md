@@ -14,10 +14,12 @@ Former Java Developer restarting a career with a focus on **AI automation and Pr
 ## Projects
 ### AI Project Report Assistant
 Practical application of GenAI in project reporting - 
-[Project Details](./AI%20Project%20Report%20Assistant)
+[Project Details](./AI%20Project%20Report%20Assistant) <br>
+Status : Completed
   
 ### Agile Coordination Hub 
-Portfolio project for project co ordination. -[Project Details](./Agile%20Coordination%20Hub)
+Portfolio project for project co ordination. -[Project Details](./Agile%20Coordination%20Hub) <br>
+Status : OnGoing
 
 ### N8N Workflows
 1. [Client Intake & Research Automation](./N8N-Workflows/Client%20Intake%20&%20Research)
