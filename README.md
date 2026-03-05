@@ -17,7 +17,7 @@ Practical application of GenAI in project reporting -
 [Project Details](./AI%20Project%20Report%20Assistant)
   
 ### Agile Coordination Hub 
-Portfolio project for project co ordination. -[Project Details]()
+Portfolio project for project co ordination. -[Project Details](./Agile%20Coordination%20Hub)
 
 ### N8N Workflows
 1. [Client Intake & Research Automation](./N8N-Workflows/Client%20Intake%20&%20Research)
