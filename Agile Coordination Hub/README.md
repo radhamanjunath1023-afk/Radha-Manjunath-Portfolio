@@ -13,19 +13,19 @@
 
 |   | **Sprint 1 - Core Coordination** | |
 |---|---------|-------------|
-| 1 | [Task Tracking Setup](use-cases/01-task-tracking.md) | Jira workflow and task visibility |
-| 2 | [Client / Request Intake](use-cases/02-client-intake.md) | Structured request intake |
-| 3 | [Meeting & Action Items](use-cases/03-meeting-actions.md) | Follow-ups and ownership |
+| 1 | Task Tracking Setup | Jira workflow and task visibility |
+| 2 | Client / Request Intake| Structured request intake |
+| 3 | Meeting & Action Items| Follow-ups and ownership |
 
 |   | **Sprint 2 - Visibility & Reporting** | |
 |---|---------|-------------|
-| 1 | [Sprint Status Reporting](use-cases/04-sprint-status.md) | Weekly delivery visibility |
-| 2 | [Reporting Dashboard](use-cases/05-reporting-dashboard.md) | High-level metrics |
-| 3 | [Timeline & Dependencies](use-cases/07-timeline-dependencies.md) | Delivery planning |
+| 1 | Sprint Status Reporting| Weekly delivery visibility |
+| 2 | Reporting Dashboard| High-level metrics |
+| 3 | Timeline & Dependencies| Delivery planning |
 
 |   | **Sprint 3 - Risk & Capacity Management** | |
 |---|---------|-------------|
-| 1 | [Risk & Issue Tracking](use-cases/06-risk-issue-tracking.md) | Proactive risk handling |
-| 2 | [Team Availability](use-cases/08-team-availability.md) | Capacity awareness |
-| 3 | [Documentation Structure](use-cases/09-documentation-setup.md) | Knowledge management |
+| 1 | Risk & Issue Tracking| Proactive risk handling |
+| 2 | Team Availability| Capacity awareness |
+| 3 | Documentation Structure| Knowledge management |
 
