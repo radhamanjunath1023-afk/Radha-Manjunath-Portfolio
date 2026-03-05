@@ -8,7 +8,7 @@ Former Java Developer restarting a career with a focus on **AI automation and Pr
 
 ## Technical Skills
 * **Automation:** N8N, Zapier
-* **Tools:** GitHub, Lovable, AI Prompting techniques, ChatGPT, Gemini, Claude, Google Workspace
+* **Tools:** GitHub, Lovable, AI Prompting techniques, ChatGPT, Gemini, Claude, Google Workspace,JIRA,Confluence
 * **Skills:** AI workflow automation using N8N, Zapier workflow automation, Zapier chatbot
 
 ## Projects
