@@ -1,7 +1,7 @@
 ## AI Project Report Assistant
 
 ### Project Artifacts
-[Lovable website](https://verba-report.lovable.app/) <br>
+[Lovable website](https://execu-summary-ai.lovable.app/) <br>
 
 ### FlowChart
 [Flowchart of AI Project Report Assistant](./Flowchart.png)
