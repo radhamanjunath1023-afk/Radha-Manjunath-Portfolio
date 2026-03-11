@@ -28,4 +28,6 @@ Status : OnGoing
 ### Agentic N8N Workflows
 1. [Appointment scheduling Agent](./N8N-Workflows/AI_Agent_Appointment_Scheduler)- included Evaluation of AI Workflow <br>
 
+### RAG Workflow
+1. [RAG agent- version 1]() <br>
 
