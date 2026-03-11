@@ -5,12 +5,19 @@ User questions are first matched with relevant document sections in a vector dat
 * Document-based AI question answering
 * Supabase Vector Store for semantic search
 * HuggingFace embeddings for document vectorization
-* Google Gemini Chat Model for response generation
-* Conversation memory for chat context
+
+
 * Automated document ingestion pipeline
-* Modular n8n workflow architecture
+
 
 ### Workflow Architecture
+
+### Tech Stack
+* N8N
+* Supabase (Vector Store)
+* HuggingFace Embeddings-Embedding model
+* Google Drive
+* Simple Memory (n8n node)
 
 **Workflow Loom Video Demo** -------> <br>
 **Screenshot of Workflow** ---------> 
