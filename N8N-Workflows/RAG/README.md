@@ -20,4 +20,4 @@ User questions are first matched with relevant document sections in a vector dat
 * Simple Memory (n8n node)
 
 **Workflow Loom Video Demo** -------> <br>
-**Screenshot of Workflow** ---------> 
+**Screenshot of Workflow** ---------> [ScreenShot](./Workflow_Screenshot.png)
