@@ -22,12 +22,14 @@ Portfolio project for project co ordination. -[Project Details](./Agile%20Coordi
 Status : OnGoing
 
 ### N8N Workflows
-1. [Client Intake & Research Automation](./N8N-Workflows/Client%20Intake%20&%20Research)
-2. [Daily Executive Briefing](./N8N-Workflows/Daily%20Executive%20Briefing)
-   
-### Agentic N8N Workflows
-1. [Appointment scheduling Agent](./N8N-Workflows/AI_Agent_Appointment_Scheduler)- included Evaluation of AI Workflow <br>
-
-### RAG Workflow
+**RAG Workflow**
 1. [RAG agent- version 1](./N8N-Workflows/RAG/README.md) <br>
+
+**Agentic N8N Workflows**
+1. [Appointment scheduling Agent](./N8N-Workflows/AI_Agent_Appointment_Scheduler)- included Evaluation of AI Workflow <br>
+2. [Client Intake & Research Automation](./N8N-Workflows/Client%20Intake%20&%20Research)
+3. [Daily Executive Briefing](./N8N-Workflows/Daily%20Executive%20Briefing)
+
+
+
 
