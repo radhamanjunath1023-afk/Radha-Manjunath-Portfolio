@@ -26,6 +26,9 @@ Status : OnGoing
 **RAG Workflow**
 1. [RAG agent- version 1](./N8N-Workflows/RAG/README.md) <br>
 
+**N8N Community Challenge**
+1. [Inbox Inferno at Nexus Integrations](./N8N-Workflows/Inbox%20Inferno%20at%20Nexus%20Integrations/README.md) <br>
+
 **Agentic N8N Workflows**
 1. [Appointment scheduling Agent](./N8N-Workflows/AI_Agent_Appointment_Scheduler)- included Evaluation of AI Workflow <br>
 2. [Client Intake & Research Automation](./N8N-Workflows/Client%20Intake%20&%20Research)
