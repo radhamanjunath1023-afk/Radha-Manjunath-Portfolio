@@ -69,9 +69,9 @@ You score 1 when:<br>
   <br>
   
 You score 0 when:<br>
-  The reply contains made-up information or skips something important<br>
-  The email gets classified wrong<br>
-  The agent tries to answer something it should have passed on<br>
+  The reply contains made-up information or skips something important <br>
+  The email gets classified wrong <br>
+  The agent tries to answer something it should have passed on <br>
 **Important: If your workflow puts an email in the wrong category, it will probably draft the wrong reply. That counts as a 0. The category choice matters because it affects everything that comes after.** <br>
 
 
@@ -81,12 +81,12 @@ After you submit, we'll put your workflow to the test, making sure what you've b
 Here's how it works.<br>
 We'll trigger your production webhook with a POST request, sending new email scenarios your agent hasn't seen before, to see how well it performs.<br>
 
-Each response is scored the same way:
-1 — correct category, grounded reply, or proper escalation
-0 — wrong category, hallucinated information, or missed escalation
-This means your workflow needs to do more than handle the known test set.
+Each response is scored the same way:.<br>
+1 — correct category, grounded reply, or proper escalation.<br>
+0 — wrong category, hallucinated information, or missed escalation.<br>
+This means your workflow needs to do more than handle the known test set..<br>
 
-Build it to understand the classification, not to memorise the answers.
+Build it to understand the classification, not to memorise the answers..<br>
 
 
 
