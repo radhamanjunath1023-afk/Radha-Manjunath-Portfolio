@@ -1,6 +1,5 @@
 # Inbox Inferno at Nexus Integrations (AI Evals)
 
-
 ## Meet Nexus Integrations
 Nexus Integrations sells integration software to other businesses. They help mid-sized companies connect their CRMs, email systems, billing tools, and internal APIs. The boring but important stuff that makes businesses run.<br>
 The company has around 80 people, a strong product, and a customer base that's growing quickly.<br>
@@ -24,7 +23,9 @@ The solution you need is clear: bring in evaluations.<br>
 
 ## What you need to build
 Your submission has two parts: the agent that handles the emails, and the evaluation system that proves it works.<br>
+
 ### Part 1: The email agent
+
 Build a workflow that reads incoming emails, classifies them into the right category, and drafts a reply using Nexus Integrations' documentation as its only source of truth.<br>
 Different email types need different handling. A pricing request needs a different response than a support question. A security question needs different wording than a setup guide. Your workflow needs to know the difference.<br>
 
@@ -76,6 +77,7 @@ You score 0 when:<br>
 
 
 ### How we evaluate your submission after submission
+
 After you submit, we'll put your workflow to the test, making sure what you've built could actually work in production for Jacob and Nexus Integrations. We test it the same way a real company would: by triggering your webhook with some real scenarios.<br>
 
 Here's how it works.<br>
