@@ -5,10 +5,7 @@ User questions are first matched with relevant document sections in a vector dat
 * Document-based AI question answering
 * Supabase Vector Store for semantic search
 * HuggingFace embeddings for document vectorization
-
-
 * Automated document ingestion pipeline
-
 
 ### Workflow Architecture
 
