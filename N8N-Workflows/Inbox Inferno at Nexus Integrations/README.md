@@ -26,7 +26,7 @@ An AI-powered workflow built in n8n to process, analyze, and respond to high-vol
 
 ## Workflow Assets
 1. [Inbox Inferno at Nexus Integrations- Description](./Description)
-2. [Nexus Integrations Company Dataset](./Nexus%20Integrations%20Company%20Dataset) 
+2. [Project Dataset](./Nexus%20Integrations%20Company%20Dataset/) 
 3. [Dataset for Evaluations](./Evaluation_Dataset/nexus-inbox-inferno-test-dataset.xlsx)
 4. [Workflow Screenshot](./Nexus_inbox_inferno.png)
 
