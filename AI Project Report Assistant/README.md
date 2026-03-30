@@ -13,4 +13,4 @@
 [Project Report Document](./AI_Project_Report.pdf)
 
 ### Project Demo
-[Project Demo video](https://drive.google.com/file/d/1vpOcCOio-74d0WmGbSC4xM4k0S3K-xUU/view?usp=sharing)
+[Project Demo video](https://youtu.be/xRefW0HEduE)
