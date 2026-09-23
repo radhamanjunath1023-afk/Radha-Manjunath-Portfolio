@@ -1,6 +1,6 @@
 # Radha Manjunath
 **Location:** FarmingtonHills, MI, USA | **Role:** Project Coordinator|  AI Automation  <br>
-**Resume :**  [Radha Manjunath Resume]()  <br>
+**Resume :**  [View my Resume]()  <br>
 **LinkedIn:** [View my LinkedIn profile](https://www.linkedin.com/in/radhamanjunath1023)
 
 ---
