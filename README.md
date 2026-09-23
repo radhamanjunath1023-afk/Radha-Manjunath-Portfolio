@@ -5,12 +5,20 @@
 
 ---
 
-## Professional Summary
+### Professional Summary
 
 I began my career in Java Development and Technical Recruiting before taking a career break for family responsibilities. I am now re-entering the workforce with a renewed focus on **Project Coordination and AI Automation**.
 
 As part of my upskilling, I completed a **Project Management course certification at Grand Valley State University**, earned **Jira Software Essentials Certification from Atlassian**, and built hands-on **AI automation projects using n8n**. <br>
 
+---
+
+### Project Management Portfolio
+
+### AI & Automation Projects
+
+
+<!--
 ## Technical Skills
 * **Automation:** N8N, Zapier
 * **Tools:** GitHub, Lovable, AI Prompting techniques, ChatGPT, Gemini, Claude, Google Workspace,JIRA,Confluence
@@ -34,6 +42,6 @@ Status : Completed
 2. [Client Intake & Research Automation](./N8N-Workflows/Client%20Intake%20&%20Research)
 3. [Daily Executive Briefing](./N8N-Workflows/Daily%20Executive%20Briefing)
 
-
+-->
 
 
