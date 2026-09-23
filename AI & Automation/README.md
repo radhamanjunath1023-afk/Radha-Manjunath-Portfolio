@@ -1,4 +1,8 @@
-
+## Skills
+* **Automation:** N8N, Zapier
+* **Tools:** GitHub, Lovable, AI Prompting techniques, ChatGPT, Gemini, Claude, Google Workspace,JIRA,Confluence
+* **Skills:** AI workflow automation using N8N, Zapier workflow automation, Zapier chatbot
+  
 ## Projects
 ### AI Project Report Assistant
 Practical application of GenAI in project reporting - 
