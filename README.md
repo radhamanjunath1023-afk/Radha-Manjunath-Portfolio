@@ -1,5 +1,6 @@
 # Radha Manjunath
-**Location:** FarmingtonHills, MI, USA | **Role:** AI-Driven Project Coordinator|  Workflow Automation | Agentic AI Workflow Builder <br>
+**Location:** FarmingtonHills, MI, USA | **Role:** Project Coordinator|  AI Automation  <br>
+**Resume :**[Radha Manjunath Resume]()
 **LinkedIn:** [View my LinkedIn profile](https://www.linkedin.com/in/radhamanjunath1023)
 
 ---
