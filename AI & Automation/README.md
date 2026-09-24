@@ -1,6 +1,6 @@
 ## Skills
 * **Automation:** N8N, Zapier
-* **Tools:** GitHub, Lovable, AI Prompting techniques, ChatGPT, Gemini, Claude, Google Workspace,JIRA,Confluence
+* **Tools:** GitHub, Lovable, AI Prompting techniques, ChatGPT, Gemini, Claude, Google Workspace
 * **Skills:** AI workflow automation using N8N, Zapier workflow automation, Zapier chatbot
   
 ## Projects
