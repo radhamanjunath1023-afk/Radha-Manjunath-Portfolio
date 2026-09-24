@@ -12,7 +12,7 @@ As part of my upskilling, I completed a **Project Management course certificatio
 
 ---
 
-### [Project Management Portfolio](./Project%20Management)
+### [Project Management Portfolio](./Project%20Management/Project-management.html)
 
 ### [AI & Automation Portfolio](./AI%20&%20Automation)
 
