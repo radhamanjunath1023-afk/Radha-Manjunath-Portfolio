@@ -1,32 +1,539 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Project Management Portfolio | Radha Manjunath</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Moodies Customer Portal Redesign | Radha Manjunath</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 40px 30px;
+            color: #444;
+            line-height: 1.6;
+            background: #ffffff;
+        }
+
+        h1 {
+            font-size: 38px;
+            color: #222;
+            margin-bottom: 10px;
+        }
+
+        h2 {
+            color: #444;
+            margin-top: 30px;
+        }
+
+        h3 {
+            color: #555;
+            margin-top: 25px;
+        }
+
+        .subtitle {
+            font-size: 20px;
+            color: #777;
+            margin-bottom: 30px;
+        }
+
+        .overview {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        .project-info {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            margin: 25px 0;
+        }
+
+        .info-box {
+            background: #f7f7f7;
+            padding: 15px;
+            border-radius: 6px;
+        }
+
+        .info-box strong {
+            color: #222;
+        }
+
+        /* Tabs */
+
+        .tabs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            border-bottom: 2px solid #ddd;
+            margin-top: 35px;
+        }
+
+        .tab-button {
+            background: #f3f3f3;
+            border: none;
+            padding: 12px 18px;
+            cursor: pointer;
+            font-size: 15px;
+            color: #444;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .tab-button:hover {
+            background: #e8e8e8;
+        }
+
+        .tab-button.active {
+            background: #2f7dbb;
+            color: white;
+        }
+
+        .tab-content {
+            display: none;
+            padding: 30px 5px;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Evidence boxes */
+
+        .evidence {
+            background: #f8f9fa;
+            border-left: 4px solid #2f7dbb;
+            padding: 18px;
+            margin: 20px 0;
+        }
+
+        .evidence strong {
+            color: #222;
+        }
+
+        ul {
+            padding-left: 25px;
+        }
+
+        /* Skills */
+
+        .skills {
+            border-top: 1px solid #ddd;
+            margin-top: 40px;
+            padding-top: 30px;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill {
+            background: #f0f0f0;
+            padding: 8px 14px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+
+        .back-link {
+            margin-top: 40px;
+            display: inline-block;
+            color: #2f7dbb;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 25px 18px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .project-info {
+                grid-template-columns: 1fr;
+            }
+
+            .tab-button {
+                flex: 1 1 45%;
+            }
+        }
+    </style>
 </head>
 
 <body>
 
-<h1>Project Management Portfolio</h1>
+    <!-- PROJECT OVERVIEW -->
 
-<p>
-Project coordination work demonstrating planning, scheduling,
-Jira tracking, risk management, stakeholder communication,
-and Agile practices.
-</p>
+    <section class="overview">
 
-<h2>Selected Projects</h2>
+        <h1>Moodies Customer Portal Redesign</h1>
 
-<h3>Project 1: Slack Implementation</h3>
-<p>
-Project planning, stakeholder communication, metrics,
-risk management and implementation planning.
-</p>
+        <p class="subtitle">
+            Project Management Case Study
+        </p>
 
-<h3>Project 2: Moodies Portal</h3>
-<p>
-Requirements, project planning, Agile coordination and
-risk management.
-</p>
+        <p>
+            A project management case study focused on revamping the
+            Moodies customer service portal and chatbot experience
+            to improve customer access to information and support.
+        </p>
+
+        <div class="project-info">
+
+            <div class="info-box">
+                <strong>Project Type</strong><br>
+                Customer Portal Redesign
+            </div>
+
+            <div class="info-box">
+                <strong>Role</strong><br>
+                Project Coordinator / Project Management
+            </div>
+
+            <div class="info-box">
+                <strong>Methodology</strong><br>
+                Agile
+            </div>
+
+            <div class="info-box">
+                <strong>Tools</strong><br>
+                Jira, WBS, Gantt, RACI, RAID
+            </div>
+
+        </div>
+
+        <h2>Project Objective</h2>
+
+        <p>
+            The project focused on improving the Moodies customer service
+            experience through a redesigned customer portal and chatbot.
+            The project plan addressed scope, stakeholders, schedule,
+            budget, risks, and communication throughout the project lifecycle.
+        </p>
+
+    </section>
+
+
+    <!-- TABS -->
+
+    <div class="tabs">
+
+        <button class="tab-button active"
+                onclick="openTab(event, 'initiation')">
+            Initiation
+        </button>
+
+        <button class="tab-button"
+                onclick="openTab(event, 'stakeholders')">
+            Stakeholders
+        </button>
+
+        <button class="tab-button"
+                onclick="openTab(event, 'planning')">
+            Project Plan
+        </button>
+
+        <button class="tab-button"
+                onclick="openTab(event, 'budget')">
+            Budget
+        </button>
+
+        <button class="tab-button"
+                onclick="openTab(event, 'risk')">
+            Risk
+        </button>
+
+        <button class="tab-button"
+                onclick="openTab(event, 'reporting')">
+            Reporting
+        </button>
+
+    </div>
+
+
+    <!-- INITIATION -->
+
+    <div id="initiation" class="tab-content active">
+
+        <h2>Project Initiation</h2>
+
+        <p>
+            Defined the project purpose, objectives, scope, deliverables,
+            assumptions, constraints, and success criteria.
+        </p>
+
+        <div class="evidence">
+            <strong>Project Charter</strong>
+
+            <p>
+                Established the foundation for the project by defining
+                the business need, objectives, scope, stakeholders,
+                and high-level deliverables.
+            </p>
+        </div>
+
+        <h3>Key Elements</h3>
+
+        <ul>
+            <li>Business need and problem statement</li>
+            <li>Project objectives</li>
+            <li>Scope and deliverables</li>
+            <li>Success criteria</li>
+            <li>Assumptions and constraints</li>
+        </ul>
+
+    </div>
+
+
+    <!-- STAKEHOLDERS -->
+
+    <div id="stakeholders" class="tab-content">
+
+        <h2>Stakeholder Management</h2>
+
+        <p>
+            Identified project stakeholders and developed an approach
+            for understanding their responsibilities, expectations,
+            communication needs, and level of involvement.
+        </p>
+
+        <div class="evidence">
+
+            <strong>RACI & Stakeholder Analysis</strong>
+
+            <p>
+                Used stakeholder analysis and a RACI framework to clarify
+                roles, responsibilities, accountability, and communication
+                needs across the project team.
+            </p>
+
+        </div>
+
+        <h3>Key Activities</h3>
+
+        <ul>
+            <li>Stakeholder identification</li>
+            <li>Stakeholder analysis</li>
+            <li>RACI development</li>
+            <li>Communication planning</li>
+            <li>Expectation management</li>
+        </ul>
+
+    </div>
+
+
+    <!-- PROJECT PLAN -->
+
+    <div id="planning" class="tab-content">
+
+        <h2>Project Plan</h2>
+
+        <p>
+            Developed the project structure and timeline to organize
+            activities, dependencies, milestones, and deliverables.
+        </p>
+
+        <div class="evidence">
+
+            <strong>WBS & Gantt Schedule</strong>
+
+            <p>
+                Broke the project into manageable work packages and
+                activities, then organized them into a project timeline
+                with milestones and dependencies.
+            </p>
+
+        </div>
+
+        <h3>Planning Activities</h3>
+
+        <ul>
+            <li>Work Breakdown Structure (WBS)</li>
+            <li>Project schedule</li>
+            <li>Milestone planning</li>
+            <li>Task dependencies</li>
+            <li>Jira work-item tracking</li>
+        </ul>
+
+    </div>
+
+
+    <!-- BUDGET -->
+
+    <div id="budget" class="tab-content">
+
+        <h2>Project Budget</h2>
+
+        <p>
+            Developed a project budget based on estimated resources,
+            activities, and project requirements.
+        </p>
+
+        <div class="evidence">
+
+            <strong>Budget Planning</strong>
+
+            <p>
+                Documented estimated project costs and budget assumptions
+                to support financial planning and project monitoring.
+            </p>
+
+        </div>
+
+        <h3>Key Elements</h3>
+
+        <ul>
+            <li>Resource estimates</li>
+            <li>Cost assumptions</li>
+            <li>Budget allocation</li>
+            <li>Budget monitoring approach</li>
+        </ul>
+
+    </div>
+
+
+    <!-- RISK -->
+
+    <div id="risk" class="tab-content">
+
+        <h2>Risk Management</h2>
+
+        <p>
+            Identified potential project risks and developed response
+            strategies to reduce their potential impact on project
+            objectives.
+        </p>
+
+        <div class="evidence">
+
+            <strong>RAID / Risk Register</strong>
+
+            <p>
+                Documented risks, impacts, probability, response strategies,
+                and ownership to support ongoing project monitoring.
+            </p>
+
+        </div>
+
+        <h3>Risk Management Activities</h3>
+
+        <ul>
+            <li>Risk identification</li>
+            <li>Probability and impact assessment</li>
+            <li>Risk mitigation</li>
+            <li>Contingency planning</li>
+            <li>Risk monitoring</li>
+        </ul>
+
+    </div>
+
+
+    <!-- REPORTING -->
+
+    <div id="reporting" class="tab-content">
+
+        <h2>Project Reporting</h2>
+
+        <p>
+            Developed concise project status updates to communicate
+            project health, progress, risks, and upcoming activities
+            to stakeholders.
+        </p>
+
+        <div class="evidence">
+
+            <strong>Project Status Report</strong>
+
+            <p>
+                Summarized project health, key insights, recommendations,
+                action items, risks, and upcoming activities for
+                stakeholder review.
+            </p>
+
+        </div>
+
+        <h3>Reporting Elements</h3>
+
+        <ul>
+            <li>Project health</li>
+            <li>Progress updates</li>
+            <li>Risks and issues</li>
+            <li>Key insights</li>
+            <li>Recommendations</li>
+            <li>Action items</li>
+        </ul>
+
+    </div>
+
+
+    <!-- SKILLS -->
+
+    <section class="skills">
+
+        <h2>Skills Demonstrated</h2>
+
+        <div class="skill-list">
+
+            <span class="skill">Project Planning</span>
+            <span class="skill">Jira</span>
+            <span class="skill">Scheduling</span>
+            <span class="skill">WBS</span>
+            <span class="skill">Gantt</span>
+            <span class="skill">RACI</span>
+            <span class="skill">RAID</span>
+            <span class="skill">Risk Management</span>
+            <span class="skill">Stakeholder Communication</span>
+            <span class="skill">Status Reporting</span>
+            <span class="skill">Agile/Scrum</span>
+
+        </div>
+
+    </section>
+
+
+    <!-- BACK TO HOME -->
+
+    <a href="index.html" class="back-link">
+        ← Back to Portfolio
+    </a>
+
+
+    <!-- JAVASCRIPT FOR TABS -->
+
+    <script>
+
+        function openTab(event, tabName) {
+
+            var contents =
+                document.getElementsByClassName("tab-content");
+
+            for (var i = 0; i < contents.length; i++) {
+                contents[i].classList.remove("active");
+            }
+
+            var buttons =
+                document.getElementsByClassName("tab-button");
+
+            for (var i = 0; i < buttons.length; i++) {
+                buttons[i].classList.remove("active");
+            }
+
+            document.getElementById(tabName)
+                .classList.add("active");
+
+            event.currentTarget.classList.add("active");
+        }
+
+    </script>
 
 </body>
 </html>
