@@ -14,8 +14,7 @@ As part of my upskilling, I completed a **Project Management course certificatio
 
 ### Project Management Portfolio
 
-### AI & Automation Projects
-[Projects](./AI%20&%20Automation)
+### [AI & Automation Portfolio](./AI%20&%20Automation)
 
 <!--
 ## Technical Skills
