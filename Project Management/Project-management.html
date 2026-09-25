@@ -166,6 +166,69 @@
                 flex: 1 1 45%;
             }
         }
+        .initiation-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+    margin-top: 25px;
+}
+
+.initiation-section {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.initiation-section.full-width {
+    grid-column: 1 / -1;
+}
+
+.initiation-section h3 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #2f7dbb;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+
+.initiation-section p {
+    margin: 0;
+}
+
+.initiation-section ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.artifact {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.artifact a {
+    display: inline-block;
+    background: #2f7dbb;
+    color: #fff;
+    padding: 10px 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.artifact a:hover {
+    background: #256895;
+}
+
+@media (max-width: 600px) {
+    .initiation-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .initiation-section.full-width {
+        grid-column: auto;
+    }
+}
     </style>
 </head>
 
@@ -273,36 +336,61 @@
 
     <!-- INITIATION -->
 
-    <div id="initiation" class="tab-content active">
+   <div id="initiation" class="tab-content active">
 
-        <h2>Project Initiation</h2>
+    <h2>Project Initiation</h2>
 
-        <p>
-            Defined the project purpose, objectives, scope, deliverables,
-            assumptions, constraints, and success criteria.
-        </p>
+    <div class="initiation-grid">
 
-        <div class="evidence">
-            <strong>Project Charter</strong>
-
+        <!-- Business Need -->
+        <div class="initiation-section full-width">
+            <h3>Business Need</h3>
             <p>
-                Established the foundation for the project by defining
-                the business need, objectives, scope, stakeholders,
-                and high-level deliverables.
+                Increasing customer inquiries were adding workload for the support team.
             </p>
         </div>
 
-        <h3>Key Elements</h3>
+        <!-- Goal -->
+        <div class="initiation-section full-width">
+            <h3>Goal</h3>
+            <p>
+                Redesign the customer service website and introduce a chatbot to improve support efficiency.
+            </p>
+        </div>
 
-        <ul>
-            <li>Business need and problem statement</li>
-            <li>Project objectives</li>
-            <li>Scope and deliverables</li>
-            <li>Success criteria</li>
-            <li>Assumptions and constraints</li>
-        </ul>
+        <!-- Scope -->
+        <div class="initiation-section">
+            <h3>Scope</h3>
+            <ul>
+                <li>Website redesign</li>
+                <li>Support content</li>
+                <li>Chatbot</li>
+                <li>Testing &amp; QA</li>
+                <li>Team enablement</li>
+            </ul>
+        </div>
+
+        <!-- Success Measures -->
+        <div class="initiation-section">
+            <h3>Success Measures</h3>
+            <ul>
+                <li>Customer satisfaction +20%</li>
+                <li>Rep inquiry time -40%</li>
+                <li>Social inquiries -80%</li>
+                <li>Resolution time 4 → 2 days</li>
+            </ul>
+        </div>
 
     </div>
+
+    <!-- Artifact Link -->
+    <div class="artifact">
+        <a href="YOUR-PROJECT-BRIEF-LINK-HERE" target="_blank">
+            View Project Brief
+        </a>
+    </div>
+
+</div>
 
 
     <!-- STAKEHOLDERS -->
